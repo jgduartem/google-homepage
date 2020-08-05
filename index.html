@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Google</title>
+	</head>
+
+	<style>
+		.container{
+			background-color: white;
+			display: grid;
+			grid-template-areas: (3, 1fr);
+		}
+
+		.barra-superior{
+			grid-row: 1;
+			margin-bottom: 100px;
+
+			justify-self: end;
+		}
+
+		li{
+			display: inline;
+		}
+
+		.contenido{
+			grid-row: 2;
+			justify-self: center;
+		}
+
+		#logo{
+			
+			justify-self: center;
+			margin-bottom: 20px;
+
+		}
+
+		#busqueda{
+			width: 600px;
+			height: 45px;
+			border: 1px solid;
+			border-color: #dfele5;
+			border-radius: 50px;
+			justify-self: center;
+			margin-bottom: 30px;
+		}
+
+		#botones{
+			justify-self: center;
+			margin-bottom: 20px;
+		}
+
+		#boton{
+			width: 140px;
+			height: 30px;
+		}
+
+		#leyenda{
+			justify-self:center;
+		}
+
+		footer{
+			background-color: silver;
+			grid-row: 3;
+			
+			margin-top: 180px;
+			margin-left: 0px;
+			margin-right: 0px;
+			margin-bottom: 0px;
+		}
+
+		#opciones-1{
+			text-align: left;
+		}
+
+		#opciones-2{
+			text-align: right;
+		}
+
+
+
+	</style>
+
+	<main class="container">
+
+	<header class="barra-superior">
+		<nav>
+			<ul>
+				<li><a href="#">Gmail</a></li>
+				<li><a href="#">Imágenes</a></li>
+				<li><a href="#">Aplicaciones</a></li>
+				<li><button type="submit">Iniciar Sesión</button><a href="#"></a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<body class="contenido">
+		<div id="logo">
+			<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google-logo">
+		</div>
+			<input type="search" id="busqueda">
+			<div id="botones">
+			<button type="submit" id="boton">Buscar con Google</button>
+			<button type="submit" id="boton">Me siento con suerte</button>
+		</div>
+			<div id="leyenda">
+			<p>Ofrecido por Google en: <a href="#">English</a><a href="#">Español (Latinoamérica)</a></p>
+		</div>
+	</body>
+
+	<div>
+
+	<footer>
+		<div id="pais">
+		<p>Venezuela</p><hr>
+	</div>
+	<div id="opciones-1">
+		<a href="#">Publicidad</a>
+		<a href="#">Negocios</a>
+		<a href="#">Sobre Google</a>
+		<a href="#">Como funciona la Búsqueda</a>
+	</div>
+
+	<div id="opciones-2">
+		<a href="#">Privacidad</a>
+		<a href="#">Condiciones</a>
+		<a href="#">Preferencias</a>
+	</div>
+
+	</footer>
+</div>
+
+
+
+</main>
+
+</html>
